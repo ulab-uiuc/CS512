@@ -327,6 +327,51 @@ code {
   border-radius: 0 !important;
 }
 
+/* 主要表格样式 */
+.table {
+  min-width: 600px; /* 确保表格有最小宽度 */
+  font-size: 1.1rem;
+  
+  thead th {
+    background: linear-gradient(135deg, #6c757d, #495057);
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 1rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  tbody td {
+    padding: 0.8rem;
+    vertical-align: middle;
+    border-color: #e9ecef;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: white;
+  }
+  
+  tbody tr:hover {
+    background-color: #e9ecef;
+    transition: background-color 0.3s ease;
+  }
+  
+  a {
+    color: #3498db;
+    font-weight: 500;
+    text-decoration: none;
+    
+    &:hover {
+      color: #2980b9;
+      text-decoration: underline;
+    }
+  }
+}
+
 /* 改善容器间距 */
 .container {
   max-width: 1140px;
@@ -404,6 +449,14 @@ code {
     }
   }
   
+  /* 表格容器响应式 */
+  .table-responsive {
+    margin: 0 -1rem;
+    padding: 0 1rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 12px;
+  }
+  
   /* 容器响应式 */
   .container {
     padding-left: 1rem;
@@ -444,8 +497,33 @@ code {
     }
   }
   
+  /* 超小屏幕表格容器优化 */
+  .table-responsive {
+    margin: 0 -0.5rem;
+    padding: 0 0.5rem;
+  }
+  
   .title {
     height: 10em !important;
+  }
+}
+
+/* 表格容器样式 */
+.table-container {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  overflow-x: auto;
+  
+  @media (max-width: 768px) {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
+  @media (max-width: 576px) {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
   }
 }
 
