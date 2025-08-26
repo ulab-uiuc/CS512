@@ -364,13 +364,32 @@ code {
 
 /* 表格中的链接样式 */
 .table a {
-  color: #3498db;
-  font-weight: 500;
-  text-decoration: none;
+  color: #3498db !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  font-size: inherit !important; /* 继承表格的字体大小 */
   
   &:hover {
-    color: #2980b9;
-    text-decoration: underline;
+    color: #2980b9 !important;
+    text-decoration: underline !important;
+  }
+}
+
+/* 强制表格链接字体大小跟随表格 */
+.table tbody td a {
+  font-size: inherit !important;
+}
+
+/* 响应式表格链接字体大小 */
+@media (max-width: 768px) {
+  .table tbody td a {
+    font-size: 0.85rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .table tbody td a {
+    font-size: 0.75rem !important;
   }
 }
 
@@ -449,6 +468,11 @@ code {
       padding: 0.4rem;
       font-size: 0.85rem;
     }
+    
+    /* 确保链接也跟随表格字体大小 */
+    a {
+      font-size: inherit !important;
+    }
   }
   
   /* 表格容器响应式 */
@@ -497,6 +521,11 @@ code {
       padding: 0.3rem;
       font-size: 0.75rem;
     }
+    
+    /* 确保链接也跟随表格字体大小 */
+    a {
+      font-size: inherit !important;
+    }
   }
   
   /* 超小屏幕表格容器优化 */
@@ -537,9 +566,6 @@ code {
   min-width: auto; /* 在容器中不需要最小宽度 */
 }
 
-/* 调试：确保表格容器可见 */
-.table-container {
-  border: 1px solid #ddd; /* 临时添加边框以便调试 */
-}
+
 
 
