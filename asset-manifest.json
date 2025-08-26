@@ -1,7 +1,7 @@
 {
   "files": {
     "main.js": "/CS512/static/js/main.js",
-    "main.css": "/CS512/static/css/main.ee65e8a2.css",
+    "main.css": "/CS512/static/css/main.5de5fcdf.css",
     "static/js/787.chunk.js": "/CS512/static/js/787.chunk.js",
     "static/media/21_Graph_Foundation_Models.pdf": "/CS512/static/media/21_Graph_Foundation_Models.pdf",
     "static/media/01_Introduction.pdf": "/CS512/static/media/01_Introduction.pdf",
@@ -36,11 +36,11 @@
     "static/media/haofei_yu.jpg": "/CS512/static/media/haofei_yu.jpg",
     "index.html": "/CS512/index.html",
     "main.js.map": "/CS512/static/js/main.js.map",
-    "main.ee65e8a2.css.map": "/CS512/static/css/main.ee65e8a2.css.map",
+    "main.5de5fcdf.css.map": "/CS512/static/css/main.5de5fcdf.css.map",
     "787.chunk.js.map": "/CS512/static/js/787.chunk.js.map"
   },
   "entrypoints": [
     "static/js/main.js",
-    "static/css/main.ee65e8a2.css"
+    "static/css/main.5de5fcdf.css"
   ]
 }
