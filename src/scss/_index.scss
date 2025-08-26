@@ -338,6 +338,19 @@ code {
     font-size: 16px;
   }
   
+  /* 主页标题响应式 */
+  .title .display-3 {
+    font-size: 2.5rem !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+  }
+  
+  .title .lead {
+    font-size: 1.2rem !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+  }
+  
   .section-heading {
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -374,6 +387,65 @@ code {
     a {
       font-size: 1.1rem;
     }
+  }
+  
+  /* 表格响应式 */
+  .table {
+    font-size: 0.9rem;
+    
+    thead th {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+    }
+    
+    tbody td {
+      padding: 0.4rem;
+      font-size: 0.85rem;
+    }
+  }
+  
+  /* 容器响应式 */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* 主页高度调整 */
+  .title {
+    height: 12em !important;
+  }
+}
+
+/* 超小屏幕优化 */
+@media (max-width: 576px) {
+  .title .display-3 {
+    font-size: 2rem !important;
+  }
+  
+  .title .lead {
+    font-size: 1rem !important;
+  }
+  
+  .section-heading {
+    font-size: 1.8rem;
+  }
+  
+  .table {
+    font-size: 0.8rem;
+    
+    thead th {
+      padding: 0.3rem;
+      font-size: 0.8rem;
+    }
+    
+    tbody td {
+      padding: 0.3rem;
+      font-size: 0.75rem;
+    }
+  }
+  
+  .title {
+    height: 10em !important;
   }
 }
 
