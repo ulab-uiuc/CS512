@@ -9,7 +9,7 @@ import Grading from "./components/home/Grading.jsx";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
-const Home = React.forwardRef(({}, ref) => {
+const Home = React.forwardRef((props, ref) => {
   return (
     <>
       <MainBody ref={ref} />

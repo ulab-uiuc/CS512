@@ -1,10 +1,9 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Typist from "react-typist-component";
 
 import Siebel from "../../assets/img/uiuc_school.png";
 
-const MainBody = React.forwardRef(({}, ref) => {
+const MainBody = React.forwardRef((props, ref) => {
   return (
     <div
       fluid
@@ -34,21 +33,19 @@ const MainBody = React.forwardRef(({}, ref) => {
         >
           CS512: Data Mining Principles
         </div>
-        <Typist>
-          <div
-            className="lead typist"
-            style={{ 
-              marginTop: "1em", 
-              marginBottom: "1em",
-              textShadow: "1px 1px 2px rgba(0,0,0,0.2)",
-              fontSize: "1.6rem",
-              fontWeight: "500",
-              fontFamily: "Montserrat, sans-serif"
-            }}
-          >
-            University of Illinois Urbana-Champaign, 2025 Fall
-          </div>
-        </Typist>
+        <div
+          className="lead"
+          style={{ 
+            marginTop: "1em", 
+            marginBottom: "1em",
+            textShadow: "1px 1px 2px rgba(0,0,0,0.2)",
+            fontSize: "1.6rem",
+            fontWeight: "500",
+            fontFamily: "Montserrat, sans-serif"
+          }}
+        >
+          University of Illinois Urbana-Champaign, 2025 Fall
+        </div>
       </Container>
     </div>
   );

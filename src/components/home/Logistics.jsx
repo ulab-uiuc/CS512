@@ -1,7 +1,5 @@
 import React from "react";
 import { Jumbotron } from "./migration";
-import HaofeiYu from "../../assets/img/haofei_yu.jpg"; // Photo not yet available
-import JiaxuanYou from "../../assets/img/jiaxuan_you.jpg";
 
 const Logistics = () => {
   return (
