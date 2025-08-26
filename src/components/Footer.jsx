@@ -9,7 +9,7 @@ const Footer = () => {
       <Container>
         <span className="badge bg-dark">CS598: Deep Learning with Graphs</span>
         <br />
-        <span>University of Illinois Urbana-Champaign, 2024Fall</span>
+        <span>University of Illinois Urbana-Champaign, 2025Fall</span>
       </Container>
     </footer>
   );

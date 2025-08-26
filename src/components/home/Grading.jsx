@@ -8,13 +8,8 @@ const Grading = () => {
     weight: { width: "40%", textAlign: "center" },
   };
   return (
-    <Jumbotron id="grading" className="bg-white">
-      <h2
-        style={{
-          fontWeight: 500,
-          textAlign: "center",
-        }}
-      >
+    <Jumbotron id="grading" className="m-0 content-section" style={{ backgroundColor: "white" }}>
+      <h2 className="section-heading text-center">
         Grading
       </h2>
       <Table striped bordered hover>

@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainBody from "./components/home/MainBody";
+import Instructors from "./components/home/Instructors";
 import Logistics from "./components/home/Logistics";
 import Content from "./components/home/Content.jsx";
 import Schedule from "./components/home/Schedule.jsx";
@@ -14,6 +15,7 @@ const Home = React.forwardRef(({}, ref) => {
       <MainBody ref={ref} />
       <Logistics />
       <Content />
+      <Instructors />
       <Schedule />
       <Grading />
     </>
@@ -26,7 +28,7 @@ const App = () => {
     <BrowserRouter basename={"/"}>
       <Navbar ref={titleRef} />
       <Routes>
-        <Route path="/CS598/" exact element={<Home ref={titleRef} />} />
+        <Route path="/CS512/" exact element={<Home ref={titleRef} />} />
       </Routes>
       <Footer />
     </BrowserRouter>

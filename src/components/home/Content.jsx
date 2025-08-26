@@ -5,46 +5,22 @@ const Content = () => {
   return (
     <Jumbotron
       id="content"
-      className="m-0"
+      className="m-0 content-section"
       style={{ backgroundColor: "white" }}
     >
-      <h2
-        style={{
-          fontWeight: 500,
-          textAlign: "center",
-        }}
-      >
+      <h2 className="section-heading text-center">
         Content
       </h2>
-      <h3 style={{ marginTop: "0.5em", marginBottom: "0.5em" }}>
+      <h3>
         What is this course about?
       </h3>
-      <p style={{ marginTop: "0.5em", marginBottom: "0.5em" }}>
-        This course delves into the exciting field of deep learning for
-        graph-structured data. This course is designed to equip students with an
-        understanding of fundamental principles, classic models, and
-        cutting-edge algorithms, along with practical applications. The
-        curriculum will commence with an exploration of the foundationals,
-        encompassing graph concepts, deep learning fundamentals, node
-        embeddings, and graph neural networks. Building upon this groundwork,
-        the course will progress to advanced topics, including the practical
-        guide for GNN implementation, theories of graph neural networks, and
-        specialized areas such as heterogeneous graphs, knowledge graphs,
-        reasoning mechanisms, and subgraph mining. Moreover, the course will
-        delve into contemporary applications, including graph-based recommender
-        systems, generative models for graphs, graph transformers, and building
-        scalable graph learning systems. The instructional approach will blend
-        traditional lectures, student-led presentations, interactive
-        seminar-style discussions, and collaborative semester-long projects.
-        Through this multifaceted approach, students will not only grasp the
-        knowledge but also develop analytical skills by reading and critiquing
-        research papers, discussing and presenting ideas, and contributing to
-        collaborative projects.
+      <p>
+        An advanced course on principles and algorithms of data mining. Data cleaning and integration; descriptive and predictive mining; mining frequent, sequential, and structured patterns; clustering, outlier analysis and fraud detection; stream data, web, text, and biomedical data mining; security and privacy in data mining; research frontiers.
       </p>
-      <h3 style={{ marginTop: "0.5em", marginBottom: "0.5em" }}>
+      <h3>
         Prerequisites
       </h3>
-      <p style={{ marginTop: "0.5em", marginBottom: "0.5em" }}>
+      <p>
         Students are expected to have the following background:
         <ul>
           <li>Basics of deep learning</li>
@@ -54,8 +30,8 @@ const Content = () => {
           </li>
         </ul>
       </p>
-      <h3 style={{ marginTop: "0.5em", marginBottom: "0.5em" }}>Materials</h3>
-      <p style={{ marginTop: "0.5em", marginBottom: "0.5em" }}>
+      <h3>Materials</h3>
+      <p>
         <ul>
           <li>
             <a href="https://www.cs.mcgill.ca/~wlh/grl_book/">
@@ -69,8 +45,8 @@ const Content = () => {
           </li>
         </ul>
       </p>
-      <h3 style={{ marginTop: "0.5em", marginBottom: "0.5em" }}>References</h3>
-      <p style={{ marginTop: "0.5em", marginBottom: "0.5em" }}>
+      <h3>References</h3>
+      <p>
         <ul>
           <li>
             Much of the course materials are adapted from{" "}

@@ -4,13 +4,8 @@ import { Table } from "react-bootstrap";
 
 const Schedule = () => {
   return (
-    <Jumbotron id="schedule" className="m-0">
-      <h2
-        style={{
-          fontWeight: 500,
-          textAlign: "center",
-        }}
-      >
+    <Jumbotron id="schedule" className="m-0 content-section">
+      <h2 className="section-heading text-center">
         Schedule
       </h2>
       <p>

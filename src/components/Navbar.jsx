@@ -39,33 +39,39 @@ const Navigation = React.forwardRef((props, ref) => {
     >
       <Navbar.Brand
         className={`${!isTop ? "brand" : "brand-white"}`}
-        href={"/CS598/#home"}
+        href={"/CS512/#home"}
       >
-        CS598
+        CS512
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className={`navbar-nav mr-auto`}>
           <NavLink
-            href={"/CS598/#logistics"}
+            href={"/CS512/#logistics"}
             className={`${!isTop ? "brand" : "brand-white"}`}
           >
             Logistics
           </NavLink>
           <NavLink
-            href={"/CS598/#content"}
+            href={"/CS512/#content"}
             className={`${!isTop ? "brand" : "brand-white"}`}
           >
             Content
           </NavLink>
           <NavLink
-            href={"/CS598/#schedule"}
+            href={"/CS512/#instructors"}
+            className={`${!isTop ? "brand" : "brand-white"}`}
+          >
+            Instructors
+          </NavLink>
+          <NavLink
+            href={"/CS512/#schedule"}
             className={`${!isTop ? "brand" : "brand-white"}`}
           >
             Schedule
           </NavLink>
           <NavLink
-            href={"/CS598/#grading"}
+            href={"/CS512/#grading"}
             className={`${!isTop ? "brand" : "brand-white"}`}
           >
             Grading
