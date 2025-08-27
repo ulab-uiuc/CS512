@@ -21,7 +21,7 @@ const Grading = () => {
         </thead>
         <tbody>
           <tr>
-            <td style={columnWidths.item}>Assignments</td>
+            <td style={columnWidths.item}>Assignments (4 assignments)</td>
             <td style={columnWidths.weight}>20%</td>
           </tr>
           <tr>
@@ -29,23 +29,19 @@ const Grading = () => {
             <td style={columnWidths.weight}>15%</td>
           </tr>
           <tr>
-            <td style={columnWidths.item}>Ideate and discussion</td>
-            <td style={columnWidths.weight}>15%</td>
+            <td style={columnWidths.item}>Idea brainstorm and discussion</td>
+            <td style={columnWidths.weight}>20%</td>
           </tr>
           <tr>
-            <td style={columnWidths.item}>Prototype implementation</td>
-            <td style={columnWidths.weight}>15%</td>
-          </tr>
-          <tr>
-            <td style={columnWidths.item}>Paper writing</td>
-            <td style={columnWidths.weight}>15%</td>
+            <td style={columnWidths.item}>Course project report</td>
+            <td style={columnWidths.weight}>25%</td>
           </tr>
           <tr>
             <td style={columnWidths.item}>Review and response</td>
             <td style={columnWidths.weight}>10%</td>
           </tr>
           <tr>
-            <td style={columnWidths.item}>Presentations</td>
+            <td style={columnWidths.item}>Research presentations</td>
             <td style={columnWidths.weight}>10%</td>
           </tr>
         </tbody>
