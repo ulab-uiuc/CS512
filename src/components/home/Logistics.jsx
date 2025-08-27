@@ -28,7 +28,7 @@ const Logistics = () => {
               others who reserve the time slot to finish.
               <ul>
                 <li>
-                  Jiaxuan You: 1:45 PM - 3:00 PM, Wednesday, Siebel Center for
+                  Jiaxuan You: 3:30 PM - 5:00 PM, Wednesday, Siebel Center for
                   Computer Science | Room 2122
                 </li>
                 <li>
@@ -38,7 +38,8 @@ const Logistics = () => {
               </ul>
             </li>
             <li>
-              <b>Communication</b>: cs512-you@siebelschool.illinois.edu
+              <b>Course Email</b>: cs512-you@siebelschool.illinois.edu
+              <b>Join Course Slack (Highly Encouraged)</b>: https://join.slack.com/t/uiuc-cs512-2025fall/shared_invite/zt-3c75rpi90-ts~eCgHb6m5CeWJpn80Whg
             </li>
           </ul>
         </div>
