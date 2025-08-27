@@ -35,6 +35,10 @@ const Logistics = () => {
                   Haofei Yu: 12:45 PM - 1:45 PM, Tuesday and Thursday, Siebel Center for
                   Computer Science | Room 2119B
                 </li>
+                <li>
+                  Pengrui Han: 12:30 PM - 2:00 PM, Wednesday, Siebel Center for
+                  Computer Science | Room 2119B
+                </li>
               </ul>
             </li>
             <li>
