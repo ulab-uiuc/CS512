@@ -15,7 +15,7 @@ const Content = () => {
         What is this course about?
       </h3>
       <p>
-        An advanced course on principles and algorithms of data mining. Data cleaning and integration; descriptive and predictive mining; mining frequent, sequential, and structured patterns; clustering, outlier analysis and fraud detection; stream data, web, text, and biomedical data mining; security and privacy in data mining; research frontiers.
+        This course explores advanced data mining techniques through the lens of deep learning for graph-structured data. Topics span the foundations (graph concepts, embeddings, graph neural networks), advanced methods (theory, heterogeneous and knowledge graphs, reasoning, subgraph mining), and applications (recommendation, generative models, transformers, scalable systems). We will also investigate emerging research frontiers, including graph-powered LLMs, multi-agent systems, and world models. The course blends lectures, student-led presentations, discussions, and semester-long projects, with a strong emphasis on both technical proficiency and critical research skills.
       </p>
       <h3>
         Prerequisites
@@ -27,21 +27,6 @@ const Content = () => {
           <li>Python programming skills</li>
           <li>
             Recommended: PyTorch, machine learning, probability and statistics
-          </li>
-        </ul>
-      </p>
-      <h3>Materials</h3>
-      <p>
-        <ul>
-          <li>
-            <a href="https://www.cs.mcgill.ca/~wlh/grl_book/">
-              Graph Representation Learning
-            </a>{" "}
-            by William L. Hamilton
-          </li>
-          <li>
-            <a href="https://networksciencebook.com/">Network Science</a> by
-            Albert-László Barabási
           </li>
         </ul>
       </p>
@@ -57,6 +42,11 @@ const Content = () => {
             the course materials publicly available.
           </li>
           <li>
+            <a href="https://ulab-uiuc.github.io/CS598/">
+              CS598 Deep Learning with Graphs @ UIUC
+            </a>
+          </li>
+          <li>
             <a href="https://graph-and-geometric-learning.github.io/cpsc483-583-website-23fall">
               CPSC483/583 @ Yale University
             </a>
@@ -68,6 +58,16 @@ const Content = () => {
           </li>
           <li>
             <a href="https://github.com/snap-stanford/GraphGym">GraphGym</a>
+          </li>
+          <li>
+            <a href="https://www.cs.mcgill.ca/~wlh/grl_book/">
+              Graph Representation Learning
+            </a>{" "}
+            by William L. Hamilton
+          </li>
+          <li>
+            <a href="https://books.google.com/books?hl=en&lr=&id=NR1oEAAAQBAJ&oi=fnd&pg=PP1&ots=_N6IOJxdtY&sig=KZ6Sex4tKgtoG8faG9TQgiBPkN8#v=onepage&q&f=false">Data mining: concepts and techniques</a> by
+            Jiawei Han, Jian Pei, and Hanghang Tong
           </li>
         </ul>
       </p>
