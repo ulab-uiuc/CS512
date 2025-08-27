@@ -39,6 +39,8 @@ const Logistics = () => {
             </li>
             <li>
               <b>Course Email</b>: cs512-you@siebelschool.illinois.edu
+            </li>
+            <li>
               <b>Join Course Slack (Highly Encouraged)</b>: https://join.slack.com/t/uiuc-cs512-2025fall/shared_invite/zt-3c75rpi90-ts~eCgHb6m5CeWJpn80Whg
             </li>
           </ul>
