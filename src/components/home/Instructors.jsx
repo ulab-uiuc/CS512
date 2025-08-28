@@ -2,6 +2,7 @@ import React from "react";
 import { Jumbotron } from "./migration";
 import JiaxuanYou from "../../assets/img/jiaxuan_you.jpg";
 import HaofeiYu from "../../assets/img/haofei_yu.jpg";
+import PengruiHan from "../../assets/img/pengrui_han.png";
 
 const Instructors = () => {
   return (
@@ -34,6 +35,19 @@ const Instructors = () => {
             />
             <p className="instructor-name">
               <a href="https://haofeiyu.me/">Haofei Yu</a>
+            </p>
+            <p className="instructor-role">TA</p>
+          </div>
+          <div className="col-lg-3 col-md-6 text-center mb-4">
+            <img
+              className="instructor-photo"
+              src={PengruiHan}
+              alt="Pengrui Han"
+              width={180}
+              height={180}
+            />
+            <p className="instructor-name">
+              <a href="https://pengrui-han.github.io/">Pengrui Han</a>
             </p>
             <p className="instructor-role">TA</p>
           </div>
