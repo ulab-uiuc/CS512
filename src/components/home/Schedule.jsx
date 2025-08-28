@@ -27,7 +27,14 @@ const Schedule = () => {
           <tr>
             <td rowSpan={2} className="text-center align-middle">1</td>
             <td>Aug 27 Wed</td>
-            <td>Introduction</td>
+            {/* <td>Introduction</td> */}
+            <td>
+              Introduction [
+              <a href={require("../../assets/slides/01_Introduction.pdf")}>
+                slides
+              </a>
+              ]
+            </td>
             <td>Paper reading & analysis</td>
             <td></td>
             <td></td>
