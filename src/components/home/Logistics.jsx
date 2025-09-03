@@ -36,7 +36,7 @@ const Logistics = () => {
                   Computer Science | Room 2119B
                 </li>
                 <li>
-                  Pengrui Han: 12:30 PM - 2:00 PM, Wednesday, Siebel Center for
+                  Pengrui Han: 1:00 PM - 2:00 PM, Wednesday, Siebel Center for
                   Computer Science | Room 2119B
                 </li>
               </ul>
