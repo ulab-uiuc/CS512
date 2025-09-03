@@ -49,7 +49,7 @@ const Schedule = () => {
               ]
             </td>
             <td>Paper reading & analysis</td>
-            <td>Writing task 1, out</td>
+            <td></td>
             <td></td>
           </tr>
           {/* Week 2 */}
@@ -58,14 +58,14 @@ const Schedule = () => {
             <td>Sept 03 Wed</td>
             <td>Embedding-based graph learning</td>
             <td>Paper reading & analysis</td>
-            <td></td>
+            <td>Writing task 1, out</td>
             <td></td>
           </tr>
           <tr>
             <td>Sept 05 Fri</td>
             <td>Graph neural networks: perspective</td>
             <td>Paper reading & analysis</td>
-            <td>Writing task 2, out</td>
+            <td></td>
             <td></td>
           </tr>
           {/* Week 3 */}
@@ -74,7 +74,7 @@ const Schedule = () => {
             <td>Sept 10 Wed</td>
             <td>Graph neural networks: model I</td>
             <td>Paper reading & analysis</td>
-            <td></td>
+            <td>Writing task 2, out</td>
             <td></td>
           </tr>
           <tr>
@@ -82,7 +82,7 @@ const Schedule = () => {
             <td>Graph neural networks: model II</td>
             <td>Paper reading & analysis</td>
             <td>Idea proposal, out</td>
-            <td>Writing task 1 due</td>
+            <td></td>
           </tr>
           {/* Week 4 */}
           <tr>
@@ -91,14 +91,14 @@ const Schedule = () => {
             <td>Paper reading discussions</td>
             <td>Ideate & discussion</td>
             <td></td>
-            <td></td>
+            <td>Writing task 1 due</td>
           </tr>
           <tr>
             <td>Sept 19 Fri</td>
             <td>Graph neural networks: objective</td>
             <td>Ideate & discussion</td>
             <td>HW 1, out</td>
-            <td>Writing task 2 due</td>
+            <td></td>
           </tr>
           {/* Week 5 */}
           <tr>
@@ -107,7 +107,7 @@ const Schedule = () => {
             <td>Graph neural networks: pipeline</td>
             <td>Ideate & discussion</td>
             <td></td>
-            <td></td>
+            <td>Writing task 2 due</td>
           </tr>
           <tr>
             <td>Sept 26 Fri</td>
