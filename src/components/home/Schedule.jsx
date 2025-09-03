@@ -56,7 +56,13 @@ const Schedule = () => {
           <tr>
             <td rowSpan={2} className="text-center align-middle">2</td>
             <td>Sept 03 Wed</td>
-            <td>Embedding-based graph learning</td>
+            <td>
+              Embedding-based graph learning [
+              <a href={require("../../assets/slides/03_Shallow_Graph_Learning.pdf")}>
+                slides
+              </a>
+              ]
+            </td>
             <td>Paper reading & analysis</td>
             <td></td>
             <td></td>
