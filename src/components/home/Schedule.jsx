@@ -87,6 +87,7 @@ const Schedule = () => {
                 <a href={require("../../assets/slides/05_GNN_Model_1.pdf")}>
                 slides
               </a>
+
               ]
             </td>
             {/* <td>Graph neural networks: model I</td> --- IGNORE --- */}
