@@ -83,7 +83,13 @@ const Schedule = () => {
           <tr>
             <td rowSpan={2} className="text-center align-middle">3</td>
             <td>Sept 10 Wed</td>
-            <td>Graph neural networks: model I</td>
+            <td>Graph neural networks: model I [
+                <a href={require("../../assets/slides/05_GNN_Model_I.pdf")}>
+                slides
+              </a>
+              ]
+            </td>
+            {/* <td>Graph neural networks: model I</td> --- IGNORE --- */}
             <td>Paper reading & analysis</td>
             <td>Writing task 2, out</td>
             <td></td>
