@@ -92,7 +92,11 @@ const Schedule = () => {
             </td>
             {/* <td>Graph neural networks: model I</td> --- IGNORE --- */}
             <td>Paper reading & analysis</td>
-            <td>Writing task 2, out</td>
+            <td>
+              <a href="https://canvas.illinois.edu/courses/63144/assignments/1421864" target="_blank" rel="noopener noreferrer">
+                Writing task 2
+              </a>
+               , out</td>
             <td></td>
           </tr>
           <tr>
