@@ -112,7 +112,11 @@ const Schedule = () => {
 
               ]</td>
             <td>Paper reading & analysis</td>
-            <td>Idea proposal, out</td>
+            <td>
+              <a href="https://canvas.illinois.edu/courses/63144/assignments/1423312" target="_blank" rel="noopener noreferrer">
+                Idea proposal
+              </a>
+               , out</td>
             <td></td>
           </tr>
           {/* Week 4 */}
