@@ -158,7 +158,7 @@ const Schedule = () => {
             <td>Project idea discussions</td>
             <td>Ideate & discussion</td>
             <td></td>
-            <td>Idea proposal due (before class)</td>
+            <td>Idea proposal due (Sep 30 11:59 PM)</td>
           </tr>
           <tr>
             <td>Oct 03 Fri</td>
