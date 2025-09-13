@@ -149,7 +149,7 @@ const Schedule = () => {
             <td>Graph neural networks: alternatives and add-ons</td>
             <td>Ideate & discussion</td>
             <td>Project proposal, out</td>
-            <td>Idea proposal due Sept 30 (before class Oct 1)</td>
+            <td></td>
           </tr>
           {/* Week 6 */}
           <tr>
@@ -158,7 +158,7 @@ const Schedule = () => {
             <td>Project idea discussions</td>
             <td>Ideate & discussion</td>
             <td></td>
-            <td></td>
+            <td>Idea proposal due (before class)</td>
           </tr>
           <tr>
             <td>Oct 03 Fri</td>
