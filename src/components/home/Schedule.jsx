@@ -64,7 +64,7 @@ const Schedule = () => {
               ]
             </td>
             <td>Paper reading & analysis</td>
-            <td>Writing task 1, out</td>
+            <td><a href="https://www.youtube.com/watch?v=V5a8n9f0h4Y" target="_blank" rel="noopener noreferrer">Writing task 1, out</a></td>
             <td></td>
           </tr>
           <tr>
@@ -132,20 +132,20 @@ const Schedule = () => {
             <td>Graph neural networks: alternatives and add-ons</td>
             <td>Ideate & discussion</td>
             <td>Project proposal, out</td>
-            <td>Idea proposal due</td>
+            <td>Idea proposal due Sept 30 (before class Oct 1)</td>
           </tr>
           {/* Week 6 */}
           <tr>
             <td rowSpan={2} className="text-center align-middle">6</td>
             <td>Oct 01 Wed</td>
-            <td>GNN implementation: PyG & GraphGym</td>
+            <td>Project idea discussions</td>
             <td>Ideate & discussion</td>
             <td></td>
             <td></td>
           </tr>
           <tr>
             <td>Oct 03 Fri</td>
-            <td>Project idea discussions</td>
+            <td>GNN: PyG & GraphGym</td>
             <td>Ideate & discussion</td>
             <td>HW 2, out</td>
             <td>HW 1 due</td>
