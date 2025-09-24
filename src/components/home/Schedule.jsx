@@ -147,7 +147,14 @@ const Schedule = () => {
           <tr>
             <td rowSpan={2} className="text-center align-middle">5</td>
             <td>Sept 24 Wed</td>
-            <td>Graph neural networks: theory</td>
+            <td>Graph neural networks: theory[
+                <a href={require("../../assets/slides/10_GNN_Theory.pdf")}>
+                slides
+              </a>
+
+              ]
+            
+            </td>
             <td>Ideate & discussion</td>
             <td></td>
             <td></td>
