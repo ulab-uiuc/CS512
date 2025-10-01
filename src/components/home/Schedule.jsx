@@ -130,7 +130,15 @@ const Schedule = () => {
           </tr>
           <tr>
             <td>Sept 19 Fri</td>
-            <td>Graph neural networks: objective</td>
+            <td>Graph neural networks: pipeline  [
+                <a href={require("../../assets/slides/09_GNN_Model_3.pdf")}>
+                slides
+              </a>
+
+              ]
+
+
+            </td>
             <td>Ideate & discussion</td>
             <td>HW 1, out</td>
             <td></td>
@@ -139,17 +147,24 @@ const Schedule = () => {
           <tr>
             <td rowSpan={2} className="text-center align-middle">5</td>
             <td>Sept 24 Wed</td>
-            <td>Graph neural networks: pipeline</td>
+            <td>Graph neural networks: theory[
+                <a href={require("../../assets/slides/10_GNN_Theory.pdf")}>
+                slides
+              </a>
+
+              ]
+            
+            </td>
             <td>Ideate & discussion</td>
             <td></td>
-            <td>Writing task 2 due</td>
+            <td></td>
           </tr>
           <tr>
             <td>Sept 26 Fri</td>
             <td>Graph neural networks: alternatives and add-ons</td>
             <td>Ideate & discussion</td>
-            <td></td>
-            <td></td>
+            <td>Project proposal, out</td>
+            <td>Writing task 2 due</td>
           </tr>
           {/* Week 6 */}
           <tr>
