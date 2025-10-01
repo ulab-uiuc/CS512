@@ -163,7 +163,7 @@ const Schedule = () => {
             <td>Sept 26 Fri</td>
             <td>Graph neural networks: alternatives and add-ons</td>
             <td>Ideate & discussion</td>
-            <td>Project proposal, out</td>
+            <td></td>
             <td>Writing task 2 due</td>
           </tr>
           {/* Week 6 */}
