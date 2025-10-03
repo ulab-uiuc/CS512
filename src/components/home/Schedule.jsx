@@ -201,7 +201,7 @@ const Schedule = () => {
             <td>Beyond simple graphs: knowledge graphs</td>
             <td>Prototype implementation</td>
             <td>Project submission, out</td>
-            <td>Project Proposal due</td>
+            <td></td>
           </tr>
           {/* Week 8 */}
           <tr>
@@ -210,7 +210,7 @@ const Schedule = () => {
             <td>Beyond simple graphs: knowledge graph reasoning</td>
             <td>Prototype implementation</td>
             <td></td>
-            <td></td>
+            <td>Project Proposal due</td>
           </tr>
           <tr>
             <td>Oct 17 Fri</td>
