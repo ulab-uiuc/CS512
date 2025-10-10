@@ -140,7 +140,7 @@ const Schedule = () => {
 
             </td>
             <td>Ideate & discussion</td>
-            <td>HW 1, out</td>
+            <td><a href="https://canvas.illinois.edu/courses/63144/assignments/1415875" target="_blank" rel="noopener noreferrer">HW 1</a>, out</td>
             <td></td>
           </tr>
           {/* Week 5 */}
@@ -177,7 +177,7 @@ const Schedule = () => {
             <td>Oct 01 Wed</td>
             <td>Project idea discussions</td>
             <td>Ideate & discussion</td>
-            <td>Project proposal, out</td>
+            <td><a href="https://canvas.illinois.edu/courses/63144/assignments/1415876" target="_blank" rel="noopener noreferrer">Project proposal</a>, out</td>
             <td>Idea proposal due (Sep 30 11:59 PM)</td>
           </tr>
           <tr>
@@ -188,7 +188,7 @@ const Schedule = () => {
               </a>
               ]</td>
             <td>Ideate & discussion</td>
-            <td>HW 2, out</td>
+            <td><a href="https://canvas.illinois.edu/courses/63144/assignments/1415877" target="_blank" rel="noopener noreferrer">HW 2</a>, out</td>
             <td>HW 1 due</td>
           </tr>
           {/* Week 7 */}
