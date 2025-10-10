@@ -195,14 +195,22 @@ const Schedule = () => {
           <tr>
             <td rowSpan={2} className="text-center align-middle">7</td>
             <td>Oct 08 Wed</td>
-            <td>Beyond simple graphs: heterogeneous graphs</td>
+            <td>Beyond simple graphs: heterogeneous graphs[
+                <a href={require("../../assets/slides/14_Heterogeneous_Graphs.pdf")}>
+                slides
+              </a>
+              ]</td>
             <td>Prototype implementation</td>
             <td></td>
             <td></td>
           </tr>
           <tr>
             <td>Oct 10 Fri</td>
-            <td>Beyond simple graphs: knowledge graphs</td>
+            <td>Beyond simple graphs: knowledge graphs[
+                <a href={require("../../assets/slides/15_Knowledge_Graphs.pdf")}>
+                slides
+              </a>
+              ]</td>
             <td>Prototype implementation</td>
             <td>Project submission, out</td>
             <td></td>
