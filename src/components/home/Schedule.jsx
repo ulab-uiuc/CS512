@@ -219,14 +219,22 @@ const Schedule = () => {
           <tr>
             <td rowSpan={2} className="text-center align-middle">8</td>
             <td>Oct 15 Wed</td>
-            <td>Beyond simple graphs: knowledge graph reasoning</td>
+            <td>Beyond simple graphs: knowledge graph reasoning[
+                <a href={require("../../assets/slides/16_Knowledge_Graph_Reasoning.pdf")}>
+                slides
+              </a>
+              ]</td>
             <td>Prototype implementation</td>
             <td></td>
             <td>Project Proposal due</td>
           </tr>
           <tr>
             <td>Oct 17 Fri</td>
-            <td>Beyond prediction: graph generative models</td>
+            <td>Beyond prediction: graph generative models[
+                <a href={require("../../assets/slides/17_Graph_Generative_Models.pdf")}>
+                slides
+              </a>
+              ]</td>
             <td>Prototype implementation</td>
             <td>HW 3, out</td>
             <td>HW 2 due</td>
