@@ -243,14 +243,22 @@ const Schedule = () => {
           <tr>
             <td rowSpan={2} className="text-center align-middle">9</td>
             <td>Oct 22 Wed</td>
-            <td>Beyond message passing: expressive GNNs</td>
+            <td>Beyond message passing: expressive GNNs[
+                <a href={require("../../assets/slides/18_Expressive_GNNs.pdf")}>
+                slides
+              </a>
+              ]</td>
             <td>Prototype implementation</td>
             <td></td>
             <td></td>
           </tr>
           <tr>
             <td>Oct 24 Fri</td>
-            <td>Beyond small graphs: scale GNNs to large graphs</td>
+            <td>Beyond small graphs: scale GNNs to large graphs[
+                <a href={require("../../assets/slides/19_Scale_GNNs_to_Large_Graphs.pdf")}>
+                slides
+              </a>
+              ]</td>
             <td>Prototype implementation</td>
             <td>HW 4, out</td>
             <td></td>
