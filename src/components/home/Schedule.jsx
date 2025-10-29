@@ -251,14 +251,14 @@ const Schedule = () => {
           <tr>
             <td rowSpan={2} className="text-center align-middle">10</td>
             <td>Oct 29 Wed</td>
-            <td>Beyond small GNNs: graph foundation models</td>
+            <td>Beyond sparse graphs: graph transformers</td>
             <td>Paper Writing</td>
             <td></td>
             <td></td>
           </tr>
           <tr>
             <td>Oct 31 Fri</td>
-            <td>Beyond sparse graphs: graph transformers</td>
+            <td>Beyond small GNNs: graph foundation models</td>
             <td>Paper Writing</td>
             <td></td>
             <td>HW 3 due</td>
