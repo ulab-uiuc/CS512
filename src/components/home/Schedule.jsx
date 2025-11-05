@@ -267,14 +267,22 @@ const Schedule = () => {
           <tr>
             <td rowSpan={2} className="text-center align-middle">10</td>
             <td>Oct 29 Wed</td>
-            <td>Beyond sparse graphs: graph transformers</td>
+            <td>Beyond sparse graphs: graph transformers[
+                <a href={require("../../assets/slides/20_Graph_Transformers.pdf")}>
+                slides
+              </a>
+              ]</td>
             <td>Paper Writing</td>
             <td></td>
             <td></td>
           </tr>
           <tr>
             <td>Oct 31 Fri</td>
-            <td>Beyond small GNNs: graph foundation models</td>
+            <td>Beyond small GNNs: graph foundation models[
+                <a href={require("../../assets/slides/21_Graph_Foundation_Models.pdf")}>
+                slides
+              </a>
+              ]</td>
             <td>Paper Writing</td>
             <td></td>
             <td>HW 3 due</td>
@@ -283,7 +291,11 @@ const Schedule = () => {
           <tr>
             <td rowSpan={2} className="text-center align-middle">11</td>
             <td>Nov 05 Wed</td>
-            <td>GNN applications: recommender systems</td>
+            <td>GNN applications: recommender systems[
+                <a href={require("../../assets/slides/22_Recommender_Systems.pdf")}>
+                slides
+              </a>
+              ]</td>
             <td>Paper Writing</td>
             <td></td>
             <td></td>
