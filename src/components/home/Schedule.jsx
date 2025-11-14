@@ -302,7 +302,11 @@ const Schedule = () => {
           </tr>
           <tr>
             <td>Nov 07 Fri</td>
-            <td>GNN applications: graph mining</td>
+            <td>GNN applications: graph mining[
+                <a href={require("../../assets/slides/23_Graph_Mining.pdf")}>
+                slides
+              </a>
+              ]</td>
             <td>Paper Writing</td>
             <td></td>
             <td>HW 4 due</td>
@@ -311,7 +315,11 @@ const Schedule = () => {
           <tr>
             <td rowSpan={2} className="text-center align-middle">12</td>
             <td>Nov 12 Wed</td>
-            <td>GNN applications: science</td>
+            <td>GNN applications: science [
+                <a href={require("../../assets/slides/24_Graph_Science.pdf")}>
+                slides
+              </a>
+              ]</td>
             <td>Review & Response</td>
             <td></td>
             <td></td>
